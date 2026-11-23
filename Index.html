@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gishan Weerasinghe | IT Manager, Sri Lanka</title>
+<meta name="description" content="Gishan Weerasinghe is an IT Manager at The Ceylon Chamber of Commerce: SAP ERP, VMware, cloud telephony, networking, web portals, and cybersecurity.">
+<meta property="og:title" content="Gishan Weerasinghe | IT Manager">
+<meta property="og:description" content="SAP ERP, VMware, 3CX, Cisco Meraki, cybersecurity, portals, and IT strategy.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0E1621">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Gishan Weerasinghe","jobTitle":"Manager – Information Technology","worksFor":{"@type":"Organization","name":"The Ceylon Chamber of Commerce","url":"https://www.chamber.lk/"},"email":"mailto:gishan123ka@gmail.com","address":{"@type":"PostalAddress","addressCountry":"LK"}}</script>
+<style>
+:root{
+  --bg:#0E1621;
+  --bg2:#111D2B;
+  --surface:#152231;
+  --surface2:#19293B;
+  --line:#243448;
+  --text:#E6EDF5;
+  --muted:#93A4B8;
+  --accent:#5AA9FF;
+  --accent2:#34D3C0;
+  --accent-ink:#06121F;
+  --r:16px;
+  --glow:0 0 0 1px color-mix(in srgb,var(--accent) 30%,transparent),0 14px 36px rgba(0,0,0,.35)
+}
+[data-theme=light]{
+  --bg:#F1F5F9;
+  --bg2:#E8EEF5;
+  --surface:#FFFFFF;
+  --surface2:#F8FAFC;
+  --line:#D3DDE8;
+  --text:#0F2236;
+  --muted:#53667C;
+  --accent:#0B63D1;
+  --accent2:#0A8F82;
+  --accent-ink:#FFFFFF;
+  --glow:0 0 0 1px color-mix(in srgb,var(--accent) 22%,transparent),0 14px 30px rgba(15,34,54,.08)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font:400 1.0625rem/1.65 "IBM Plex Sans",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden
+}
+h1,h2,h3{font-family:Sora,"IBM Plex Sans",system-ui,sans-serif;line-height:1.15;margin:0;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:88px 0;position:relative}
+h2{font-size:clamp(1.75rem,3.4vw,2.35rem);margin-bottom:12px}
+.sub{color:var(--muted);max-width:62ch;margin:0 0 40px}
+.ic{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.fi{fill:currentColor;stroke:none}
+
+/* Top progress bar */
+.progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:50;background:linear-gradient(90deg,var(--accent),var(--accent2));box-shadow:0 0 12px var(--accent)}
+
+/* Header */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;gap:24px;height:66px}
+.brand{font:700 1.08rem Sora,sans-serif;text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand b{
+  display:grid;place-items:center;width:36px;height:36px;border-radius:10px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--accent-ink);
+  font-size:.86rem;box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 30%,transparent)
+}
+nav ul{display:flex;gap:22px;list-style:none;margin:0 0 0 auto;padding:0}
+nav ul a{
+  position:relative;text-decoration:none;color:var(--muted);font-size:.95rem;
+  padding:6px 0;transition:color .2s
+}
+nav ul a::after{
+  content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  transform:scaleX(0);transform-origin:left;transition:transform .25s ease
+}
+nav ul a:hover,nav ul a.active{color:var(--text)}
+nav ul a:hover::after,nav ul a.active::after{transform:scaleX(1)}
+.tbtn{
+  background:var(--surface);border:1px solid var(--line);color:var(--text);
+  width:38px;height:38px;border-radius:10px;cursor:pointer;font-size:1.05rem;
+  display:grid;place-items:center;transition:transform .2s,border-color .2s
+}
+.tbtn:hover{border-color:var(--accent);transform:rotate(12deg)}
+
+/* Hero */
+.hero{
+  padding:74px 0 88px;position:relative;overflow:hidden;
+  background:
+    radial-gradient(60% 70% at 85% 28%,color-mix(in srgb,var(--accent) 22%,transparent),transparent 70%),
+    radial-gradient(45% 55% at 12% 88%,color-mix(in srgb,var(--accent2) 16%,transparent),transparent 70%)
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background-image:radial-gradient(var(--line) 1.25px,transparent 1.25px);
+  background-size:26px 26px;opacity:.72;
+  -webkit-mask-image:linear-gradient(90deg,transparent 8%,#000 92%);
+  mask-image:linear-gradient(90deg,transparent 8%,#000 92%);
+  animation:gridDrift 24s linear infinite
+}
+@keyframes gridDrift{0%{background-position:0 0}100%{background-position:52px 52px}}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.06fr .94fr;gap:42px;align-items:center}
+.pill{
+  display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);
+  background:color-mix(in srgb,var(--surface) 90%,transparent);backdrop-filter:blur(6px);
+  border-radius:999px;padding:6px 15px;font-size:.9rem;margin-bottom:20px
+}
+.pill i{
+  width:8px;height:8px;border-radius:50%;background:var(--accent2);
+  box-shadow:0 0 0 0 color-mix(in srgb,var(--accent2) 60%,transparent);
+  animation:pulseRing 2.2s infinite
+}
+@keyframes pulseRing{
+  0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent2) 65%,transparent)}
+  70%{box-shadow:0 0 0 9px transparent}
+  100%{box-shadow:0 0 0 0 transparent}
+}
+.role{margin:0 0 16px;color:var(--muted)}
+.role strong{color:var(--text);font-weight:600}
+.role a{color:var(--accent);text-decoration:none;border-bottom:1px dashed color-mix(in srgb,var(--accent) 50%,transparent)}
+.role a:hover{border-bottom-style:solid}
+h1{
+  font-size:clamp(2.4rem,6vw,4.05rem);margin-bottom:18px;
+  background:linear-gradient(120deg,var(--text) 60%,var(--accent) 130%);
+  -webkit-background-clip:text;background-clip:text;color:transparent
+}
+.tag{font-size:1.18rem;max-width:38ch;margin:0 0 26px;color:var(--text)}
+.kpi-strip{
+  display:flex;flex-wrap:wrap;gap:14px;margin-bottom:28px
+}
+.kpi{
+  background:color-mix(in srgb,var(--surface) 88%,transparent);border:1px solid var(--line);
+  border-radius:12px;padding:10px 14px;min-width:128px
+}
+.kpi b{display:block;font:700 1.15rem Sora,sans-serif;color:var(--accent2)}
+.kpi span{font-size:.8rem;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:11px;
+  border:1px solid var(--line);background:var(--surface);text-decoration:none;
+  font-weight:500;font-size:.98rem;transition:transform .2s cubic-bezier(.22,1,.36,1),border-color .2s,box-shadow .2s
+}
+.btn:hover{transform:translateY(-2px);border-color:var(--accent);box-shadow:0 8px 20px rgba(0,0,0,.22)}
+.btn.p{
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:var(--accent-ink);border-color:transparent;font-weight:600
+}
+.btn .ic{width:18px;height:18px}
+
+/* Portrait + circuit telemetry art */
+.art{position:relative;max-width:440px;margin:0 auto;width:100%;aspect-ratio:1}
+.circ{position:absolute;inset:0;width:100%;height:100%}
+.circ path{fill:none;stroke:var(--line);stroke-width:2}
+.circ .fl{stroke:var(--accent);stroke-dasharray:6 14;animation:flow 2.8s linear infinite}
+.circ .fl2{stroke:var(--accent2);stroke-dasharray:4 16;animation:flowReverse 3.6s linear infinite}
+.circ circle{fill:var(--bg);stroke:var(--accent2);stroke-width:2.2}
+@keyframes flow{to{stroke-dashoffset:-80}}
+@keyframes flowReverse{to{stroke-dashoffset:80}}
+.frame{
+  position:absolute;left:19%;top:19%;width:62%;height:62%;border-radius:28px;padding:4px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  box-shadow:0 22px 54px rgba(0,0,0,.4)
+}
+.frame img,.frame .mono{width:100%;height:100%;border-radius:24px;object-fit:cover;display:block;background:var(--surface)}
+.frame .mono{display:none;place-items:center;font:700 3.5rem Sora,sans-serif;color:var(--accent)}
+.chip{
+  position:absolute;display:flex;align-items:center;gap:8px;
+  background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--line);border-radius:12px;padding:8px 12px;
+  font-size:.84rem;font-weight:500;box-shadow:0 10px 26px rgba(0,0,0,.28);white-space:nowrap;
+  animation:floatChip 5s ease-in-out infinite
+}
+.chip .ic{width:18px;height:18px;color:var(--accent)}
+.c1{left:0;top:9%;animation-delay:0s}
+.c2{right:0;top:3%;animation-delay:-1s}
+.c3{right:-2%;bottom:20%;animation-delay:-2s}
+.c4{left:2%;bottom:8%;animation-delay:-3s}
+.c5{left:35%;bottom:-2%;animation-delay:-4s}
+@keyframes floatChip{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-6px)}
+}
+
+/* Focus tiles */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-36px;position:relative;z-index:3}
+.tile{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;
+  transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s,box-shadow .25s
+}
+.tile:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:var(--glow)}
+.ib{
+  display:grid;place-items:center;width:46px;height:46px;border-radius:12px;
+  background:color-mix(in srgb,var(--accent) 15%,transparent);color:var(--accent);margin-bottom:14px;
+  transition:transform .25s,background .25s
+}
+.tile:hover .ib,.card:hover .ib,.sk:hover .ib{
+  transform:scale(1.06);background:color-mix(in srgb,var(--accent2) 20%,transparent);color:var(--accent2)
+}
+.tile h3{font-size:1.02rem;margin-bottom:6px}
+.tile p{margin:0;color:var(--muted);font-size:.93rem;line-height:1.55}
+
+/* About + Interactive Tech Topology Graphic */
+.about{display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:start}
+.about p{margin:0 0 16px;max-width:62ch}
+.topo{
+  margin-top:24px;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--r);padding:18px;box-shadow:var(--glow)
+}
+.topo-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:.85rem;color:var(--muted)}
+.topo-head b{color:var(--text);font-family:Sora,sans-serif;font-size:.92rem}
+.topo svg{width:100%;height:auto;display:block}
+.topo .node-box{fill:var(--surface2);stroke:var(--line);stroke-width:1.5}
+.topo .node-active{fill:var(--surface2);stroke:var(--accent2);stroke-width:1.8}
+.topo .node-lbl{fill:var(--text);font:600 11px "IBM Plex Sans",sans-serif}
+.topo .node-sub{fill:var(--muted);font:400 9.5px "IBM Plex Sans",sans-serif}
+.topo .link{fill:none;stroke:var(--accent);stroke-width:1.6;stroke-dasharray:5 5;animation:flow 2.4s linear infinite}
+
+/* Experience timeline */
+.band{background:var(--bg2);border-block:1px solid var(--line)}
+.tl{border-left:2px solid var(--line);margin:0;padding:0 0 0 28px;list-style:none}
+.tl>li{position:relative;padding-bottom:36px}
+.tl>li:last-child{padding-bottom:0}
+.tl>li::before{
+  content:"";position:absolute;left:-37px;top:8px;width:14px;height:14px;border-radius:50%;
+  background:var(--bg2);border:3px solid var(--accent);transition:transform .2s
+}
+.tl>li:hover::before{transform:scale(1.25)}
+.tl>li.now::before{
+  border-color:var(--accent2);background:var(--accent2);
+  box-shadow:0 0 0 5px color-mix(in srgb,var(--accent2) 22%,transparent)
+}
+.tl h3{font-size:1.2rem}
+.tl .org{color:var(--muted);margin:3px 0 8px}
+.tl .org a{color:var(--accent);text-decoration:none;font-weight:500}
+.tl .org a:hover{text-decoration:underline}
+.tl time{
+  display:inline-block;color:var(--accent2);font-weight:600;font-size:.88rem;
+  background:color-mix(in srgb,var(--accent2) 12%,transparent);padding:2px 10px;border-radius:999px;margin-bottom:6px
+}
+.tl ul{margin:8px 0 0;padding-left:18px;max-width:75ch}
+.tl ul li{padding:0 0 5px}
+
+/* Projects */
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.card{
+  grid-column:span 2;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--r);padding:24px;transition:border-color .22s,transform .25s cubic-bezier(.22,1,.36,1),box-shadow .25s
+}
+.card:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:var(--glow)}
+.card.big{grid-column:span 3}
+.card h3{font-size:1.1rem;margin-bottom:6px}
+.card .org{color:var(--accent);font-size:.9rem;margin:0 0 10px;font-weight:500}
+.card .org a{color:inherit;text-decoration:none}
+.card .org a:hover{text-decoration:underline}
+.card p:last-child{margin:0;color:var(--muted);font-size:.97rem}
+
+/* Filterable Skills */
+.filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.fbtn{
+  background:var(--surface);border:1px solid var(--line);color:var(--muted);
+  padding:8px 15px;border-radius:999px;font:500 .9rem "IBM Plex Sans",sans-serif;
+  cursor:pointer;transition:all .2s
+}
+.fbtn:hover{color:var(--text);border-color:var(--accent)}
+.fbtn.active{
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:var(--accent-ink);border-color:transparent;font-weight:600
+}
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.sk{
+  display:flex;gap:16px;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--r);padding:22px;transition:transform .22s,border-color .22s,opacity .25s
+}
+.sk:hover{border-color:var(--accent);transform:translateY(-3px)}
+.sk.dim{opacity:.35;transform:scale(.99)}
+.sk .ib{margin:0}
+.sk h3{font-size:1.05rem;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{
+  border:1px solid var(--line);background:var(--surface2);border-radius:999px;
+  padding:4px 12px;font-size:.87rem;transition:border-color .2s,color .2s
+}
+.chips span:hover{border-color:var(--accent2);color:var(--accent2)}
+
+/* Education & Contact */
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.edu div{
+  display:flex;gap:14px;align-items:flex-start;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--r);padding:20px;transition:transform .2s,border-color .2s
+}
+.edu div:hover{transform:translateY(-3px);border-color:var(--accent2)}
+.edu b{display:block;font-weight:600}
+.edu span{color:var(--muted);font-size:.94rem}
+.edu .ic{color:var(--accent2);margin-top:2px}
+.cg{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.cg a{
+  display:block;padding:24px;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);text-decoration:none;transition:border-color .2s,transform .25s,box-shadow .25s
+}
+.cg a:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:var(--glow)}
+.cg .ic{width:30px;height:30px;color:var(--accent);margin-bottom:12px}
+.cg b{display:block;font:600 1.1rem Sora,sans-serif}
+.cg span{color:var(--muted);font-size:.95rem;word-break:break-all}
+
+footer{padding:28px 0;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.wa{
+  position:fixed;right:18px;bottom:18px;z-index:30;display:none;width:54px;height:54px;
+  border-radius:50%;background:#25D366;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);
+  transition:transform .2s
+}
+.wa:hover{transform:scale(1.06)}
+.wa .ic{width:28px;height:28px;color:#fff}
+
+/* Scroll reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1)}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .hero .wrap,.about{grid-template-columns:1fr}
+  .tiles{grid-template-columns:repeat(2,1fr);margin-top:24px}
+  .card,.card.big{grid-column:span 6}
+  .skills,.edu,.cg{grid-template-columns:1fr}
+  nav ul{display:none}
+  .tbtn{margin-left:auto}
+  .wa{display:grid}
+  section{padding:64px 0}
+  .art{max-width:360px}
+  .chip{font-size:.78rem;padding:6px 9px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="erp" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+<symbol id="cloud" viewBox="0 0 24 24"><path d="M7 18a4 4 0 010-8 5.500 5.500 0 0110.500 1.500A3.300 3.300 0 0117 18z"/></symbol>
+<symbol id="phone" viewBox="0 0 24 24"><path d="M6 3h4l2 5-2.500 1.500a11 11 0 005 5L16 12l5 2v4a2 2 0 01-2 2A16 16 0 014 5a2 2 0 012-2z"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+<symbol id="wifi" viewBox="0 0 24 24"><path d="M2 9a15 15 0 0120 0M5.500 12.500a10 10 0 0113 0M9 16a5 5 0 016 0"/><circle cx="12" cy="19" r="1"/></symbol>
+<symbol id="cam" viewBox="0 0 24 24"><rect x="2" y="7" width="14" height="10" rx="2"/><path d="M16 11l6-3v8l-6-3"/></symbol>
+<symbol id="net" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-4h12v4"/></symbol>
+<symbol id="audio" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zM16 9a4 4 0 010 6M18.500 6.500a8 8 0 010 11"/></symbol>
+<symbol id="server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1.500"/><rect x="3" y="14" width="18" height="6" rx="1.500"/><path d="M7 7h.01M7 17h.01"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.500"/><path d="M2 20a7 7 0 0114 0M16 4.500a3.500 3.500 0 010 7M18 14a7 7 0 013.500 6"/></symbol>
+<symbol id="key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3"/></symbol>
+<symbol id="cap" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5zM6 11.500V16c0 1.500 3 3 6 3s6-1.500 6-3v-4.500"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="wa" viewBox="0 0 24 24"><path class="fi" d="M12 2a10 10 0 00-8.600 15L2 22l5.100-1.300A10 10 0 1012 2zm5.200 13.900c-.2.600-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7a11 11 0 01-4.500-4 5 5 0 01-1-2.700c0-1.300.7-1.900.9-2.200.3-.3.6-.3.8-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .500l-.4.600-.4.400c-.1.200-.3.300-.1.600a6 6 0 003 2.600c.3.200.5.100.7-.1l.8-1c.2-.3.4-.2.6-.1l1.900.9c.3.100.5.200.5.400.1.200.1.800-.1 1.400z"/></symbol>
+<symbol id="in" viewBox="0 0 24 24"><path class="fi" d="M4.980 3.500a2.500 2.500 0 11-.01 5 2.500 2.500 0 010-5zM3 9.500h4V21H3zM9.500 9.500h3.800v1.600h.1c.5-1 1.800-2 3.800-2 4 0 4.800 2.600 4.800 6V21h-4v-5c0-1.200 0-2.800-1.700-2.800s-2 1.300-2 2.700V21h-4z"/></symbol>
+<symbol id="code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap">
+    <nav aria-label="Main">
+      <a class="brand" href="#top"><b>GW</b>Gishan Weerasinghe</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="tbtn" id="theme" aria-label="Switch light or dark theme" title="Toggle theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill"><i></i>Based in Sri Lanka · Infrastructure &amp; Digital Operations</span>
+        <p class="role"><strong>Manager – Information Technology</strong>, <a href="https://www.chamber.lk/" target="_blank" rel="noopener">The Ceylon Chamber of Commerce</a></p>
+        <h1>Gishan Weerasinghe</h1>
+        <p class="tag">I keep an organisation's systems secure and running, and build the tools that save its people time.</p>
+
+        <div class="kpi-strip" aria-label="Highlights">
+          <div class="kpi"><b>7+ Yrs</b><span>Enterprise &amp; Hospitality IT</span></div>
+          <div class="kpi"><b>SAP &amp; VMware</b><span>ERP &amp; Virtual Cloud</span></div>
+          <div class="kpi"><b>Multi-Site</b><span>Corporate &amp; Luxury Resorts</span></div>
+        </div>
+
+        <div class="cta">
+          <a class="btn p" href="mailto:gishan123ka@gmail.com"><svg class="ic"><use href="#mail"/></svg>Email me</a>
+          <a class="btn" href="https://wa.me/94711816940?text=Hi%20Gishan%2C%20I%20found%20your%20portfolio." target="_blank" rel="noopener"><svg class="ic"><use href="#wa"/></svg>WhatsApp</a>
+          <a class="btn" href="https://www.linkedin.com/in/gishan-weerasinghe" target="_blank" rel="noopener"><svg class="ic"><use href="#in"/></svg>LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="art" aria-hidden="false">
+        <svg class="circ" viewBox="0 0 400 400" aria-hidden="true">
+          <path d="M10 80H70L100 110"/><path d="M390 60H330L300 90"/><path d="M390 300H320L290 270"/><path d="M10 320H80L110 290"/><path d="M200 392V350"/>
+          <path class="fl" d="M10 80H70L100 110"/><path class="fl" d="M390 60H330L300 90"/><path class="fl2" d="M390 300H320L290 270"/><path class="fl2" d="M10 320H80L110 290"/>
+          <circle cx="100" cy="110" r="5"/><circle cx="300" cy="90" r="5"/><circle cx="290" cy="270" r="5"/><circle cx="110" cy="290" r="5"/>
+        </svg>
+        <div class="frame">
+          <img id="photo" src="https://media.licdn.com/dms/image/v2/D5603AQFj-ppgmNWxfw/profile-displayphoto-scale_400_400/B56aCoMIoiIUAg-/0/1789528149454?e=2147483647&amp;v=beta&amp;t=X7SyPWNn57Je5mfxXlfaxmuc1cUnONDvPjDun63E_jw" referrerpolicy="no-referrer" alt="Portrait of Gishan Weerasinghe">
+          <div class="mono" id="mono">GW</div>
+        </div>
+        <span class="chip c1"><svg class="ic"><use href="#erp"/></svg>SAP ERP</span>
+        <span class="chip c2"><svg class="ic"><use href="#cloud"/></svg>VMware cloud</span>
+        <span class="chip c3"><svg class="ic"><use href="#shield"/></svg>Cybersecurity</span>
+        <span class="chip c4"><svg class="ic"><use href="#phone"/></svg>3CX telephony</span>
+        <span class="chip c5"><svg class="ic"><use href="#net"/></svg>Networking</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="tiles reveal">
+      <div class="tile"><div class="ib"><svg class="ic"><use href="#erp"/></svg></div><h3>Enterprise systems</h3><p>ERP, CRM, member portals and workflow automation that cut manual work.</p></div>
+      <div class="tile"><div class="ib"><svg class="ic"><use href="#server"/></svg></div><h3>Infrastructure and cloud</h3><p>Virtualised servers, resilient networks and cloud telephony built to scale.</p></div>
+      <div class="tile"><div class="ib"><svg class="ic"><use href="#shield"/></svg></div><h3>Security and continuity</h3><p>Email &amp; web protection, access control, backups and disaster recovery.</p></div>
+      <div class="tile"><div class="ib"><svg class="ic"><use href="#users"/></svg></div><h3>People and vendors</h3><p>Staff enablement, AMCs, SLAs, Capex/Opex and IT budgeting.</p></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="reveal">
+        <h2>About</h2>
+        <p class="sub" style="margin-bottom:18px">IT leadership with hands-on depth.</p>
+        <div class="topo" aria-label="Enterprise technology stack diagram">
+          <div class="topo-head"><b>System Architecture Overview</b><span>Active Production Stack</span></div>
+          <svg viewBox="0 0 460 175" role="img" aria-label="Diagram showing edge security, network core, virtualized cloud, and enterprise applications">
+            <rect class="node-box" x="12" y="16" width="126" height="54" rx="10"/>
+            <text class="node-lbl" x="24" y="38">Edge &amp; Security</text>
+            <text class="node-sub" x="24" y="55">Meraki · Barracuda · DNS</text>
+
+            <rect class="node-active" x="167" y="16" width="126" height="54" rx="10"/>
+            <text class="node-lbl" x="179" y="38">Virtual Cloud</text>
+            <text class="node-sub" x="179" y="55">VMware · AD · 3CX VoIP</text>
+
+            <rect class="node-box" x="322" y="16" width="126" height="54" rx="10"/>
+            <text class="node-lbl" x="334" y="38">Business Apps</text>
+            <text class="node-sub" x="334" y="55">SAP B1 · Portals · CRM</text>
+
+            <rect class="node-box" x="88" y="108" width="132" height="50" rx="10"/>
+            <text class="node-lbl" x="100" y="129">Workspace &amp; Ops</text>
+            <text class="node-sub" x="100" y="146">M365 · Google · Scripts</text>
+
+            <rect class="node-box" x="240" y="108" width="132" height="50" rx="10"/>
+            <text class="node-lbl" x="252" y="129">Resilience &amp; CCTV</text>
+            <text class="node-sub" x="252" y="146">Backups · DR · IP Cam</text>
+
+            <path class="link" d="M138 43H167"/>
+            <path class="link" d="M293 43H322"/>
+            <path class="link" d="M230 70V90H154V108"/>
+            <path class="link" d="M230 90H306V108"/>
+          </svg>
+        </div>
+      </div>
+      <div class="reveal">
+        <p>I'm an IT professional who has worked across corporate and hospitality environments, from running IT for luxury resorts to leading IT at a national business chamber.</p>
+        <p>I'm hands-on with networks, servers and enterprise systems, and I'm known for spotting technology gaps, streamlining processes and delivering cost-effective, scalable solutions under pressure.</p>
+        <p>I hold a BEng (Hons) in Computer Network Engineering from London Metropolitan University.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="band">
+    <div class="wrap">
+      <h2 class="reveal">Experience</h2>
+      <p class="sub reveal">From first-line support to running IT for an organisation and its associated councils.</p>
+      <ol class="tl">
+        <li class="now reveal">
+          <time>June 2023 – Present</time>
+          <h3>Manager – Information Technology</h3>
+          <p class="org"><a href="https://www.chamber.lk/" target="_blank" rel="noopener">The Ceylon Chamber of Commerce</a></p>
+          <ul>
+            <li>Run all IT operations for internal departments, Business Councils and Associations.</li>
+            <li>Led the SAP ERP rollout, the VMware server migration and the move to cloud 3CX telephony.</li>
+            <li>Own cybersecurity, access control, backups and disaster recovery planning, plus vendor AMCs and IT budgeting.</li>
+            <li>Build the Chamber's online systems and member portals, and support high-profile events and delegations.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <time>2022 – 2023</time>
+          <h3>Information Technology Executive</h3>
+          <p class="org"><a href="https://www.dmslk.com/" target="_blank" rel="noopener">Data Management Systems (Pvt) Limited</a></p>
+          <ul>
+            <li>First-line support, Active Directory and Office 365 administration, Cisco and Unify device maintenance.</li>
+            <li>Supported backups and recovery testing, kept IT documentation and inventory, and trained users.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <time>2021 – 2022</time>
+          <h3>IT Administrator, then Team Lead</h3>
+          <p class="org"><a href="https://www.resplendentceylon.com/" target="_blank" rel="noopener">Resplendent Ceylon</a> (via Lanka Communications) – Cape Weligama, Wild Coast Tented Lodge, Ceylon Tea Trails</p>
+          <ul>
+            <li>Promoted to lead IT across all three properties: Wi-Fi, LAN, PABX, IPTV, SONOS, IP CCTV, POS and door-lock systems.</li>
+            <li>Led the team and its training, managed the IT budget (Capex and Opex), vendors, SLAs and AMCs.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <time>2020</time>
+          <h3>Trainee IT Administrator</h3>
+          <p class="org">SK International Holdings</p>
+          <ul>
+            <li>Windows Server and DNS, Active Directory, backup servers, VPN, load balancing, mail servers and IP CCTV planning.</li>
+          </ul>
+        </li>
+        <li class="reveal">
+          <time>2019</time>
+          <h3>Information Technology Officer</h3>
+          <p class="org">Zion View Green Retreat, Ella</p>
+          <ul>
+            <li>Managed the POS system and property-wide Wi-Fi, and resolved guest and staff IT issues.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2 class="reveal">Key projects</h2>
+      <p class="sub reveal">Selected work at the Chamber and at Cape Weligama.</p>
+      <div class="grid">
+        <article class="card big reveal"><div class="ib"><svg class="ic"><use href="#erp"/></svg></div><h3>SAP Business One implementation</h3><p class="org"><a href="https://www.chamber.lk/" target="_blank" rel="noopener">The Ceylon Chamber of Commerce</a></p><p>Led the full rollout across accounting, invoicing, event management and stock control. Migrated member, supplier and vendor data and opening balances, automated email workflows and bulk invoicing, and trained users.</p></article>
+        <article class="card big reveal"><div class="ib"><svg class="ic"><use href="#cloud"/></svg></div><h3>Network optimisation and cloud migration</h3><p class="org"><a href="https://www.chamber.lk/" target="_blank" rel="noopener">The Ceylon Chamber of Commerce</a></p><p>Moved core servers (Active Directory, Accounts, BIS) to VMware cloud, improving scalability, security and disaster recovery, with secure VPN access for staff.</p></article>
+        <article class="card reveal"><div class="ib"><svg class="ic"><use href="#phone"/></svg></div><h3>Hardware PABX to cloud 3CX</h3><p class="org"><a href="https://www.chamber.lk/" target="_blank" rel="noopener">The Ceylon Chamber of Commerce</a></p><p>Led installation, configuration and training with minimal disruption, improving scalability and remote access while lowering maintenance costs.</p></article>
+        <article class="card reveal"><div class="ib"><svg class="ic"><use href="#wifi"/></svg></div><h3>Wi-Fi redesign with Cisco Meraki</h3><p class="org"><a href="https://www.chamber.lk/" target="_blank" rel="noopener">The Ceylon Chamber of Commerce</a></p><p>Designed redundant high-speed internet and Wi-Fi using Cisco Meraki, improving network uptime, bandwidth and business continuity.</p></article>
+        <article class="card reveal"><div class="ib"><svg class="ic"><use href="#cam"/></svg></div><h3>IP CCTV system</h3><p class="org"><a href="https://www.resplendentceylon.com/" target="_blank" rel="noopener">Cape Weligama Luxury Hotel</a></p><p>Planned and deployed property-wide IP CCTV with real-time monitoring.</p></article>
+        <article class="card reveal"><div class="ib"><svg class="ic"><use href="#net"/></svg></div><h3>Full network re-cabling</h3><p class="org"><a href="https://www.resplendentceylon.com/" target="_blank" rel="noopener">Cape Weligama Luxury Hotel</a></p><p>Re-cabled guest rooms and back-of-house areas to support modern connectivity and higher bandwidth.</p></article>
+        <article class="card reveal"><div class="ib"><svg class="ic"><use href="#key"/></svg></div><h3>Guest Wi-Fi portal with RADIUS</h3><p class="org"><a href="https://www.resplendentceylon.com/" target="_blank" rel="noopener">Cape Weligama Luxury Hotel</a></p><p>Built a web-based guest portal integrated with a RADIUS server for simpler, more secure guest access.</p></article>
+        <article class="card reveal"><div class="ib"><svg class="ic"><use href="#audio"/></svg></div><h3>BOSE sound systems</h3><p class="org"><a href="https://www.resplendentceylon.com/" target="_blank" rel="noopener">Cape Weligama Luxury Hotel</a></p><p>Installed premium audio in the main restaurant and bar areas.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="band">
+    <div class="wrap">
+      <h2 class="reveal">Skills</h2>
+      <p class="sub reveal">What I work with, and how I work. Select a focus area to highlight relevant domains.</p>
+
+      <div class="filter-bar reveal" role="group" aria-label="Filter skill categories">
+        <button class="fbtn active" data-filter="all">All skills</button>
+        <button class="fbtn" data-filter="infra">Infrastructure &amp; Cloud</button>
+        <button class="fbtn" data-filter="apps">ERP, Portals &amp; Automation</button>
+        <button class="fbtn" data-filter="sec">Security &amp; Governance</button>
+        <button class="fbtn" data-filter="lead">Leadership &amp; Ops</button>
+      </div>
+
+      <div class="skills">
+        <div class="sk reveal" data-cat="infra sec">
+          <div class="ib"><svg class="ic"><use href="#server"/></svg></div>
+          <div>
+            <h3>Infrastructure, Cloud &amp; Networks</h3>
+            <div class="chips">
+              <span>VMware / vCenter</span><span>Windows Server</span><span>Active Directory</span><span>Cisco Meraki</span><span>Unify / Ubiquiti</span><span>VPN &amp; Load Balancing</span><span>RADIUS</span><span>IP CCTV (Axis &amp; Hikvision)</span><span>3CX &amp; PABX / IVR</span><span>POS &amp; IPTV</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sk reveal" data-cat="apps lead">
+          <div class="ib"><svg class="ic"><use href="#code"/></svg></div>
+          <div>
+            <h3>Enterprise Systems, Portals &amp; Automation</h3>
+            <div class="chips">
+              <span>SAP Business One</span><span>CRM</span><span>Member Portals</span><span>Microsoft 365</span><span>Google Workspace</span><span>Google Apps Script</span><span>Google Sheets &amp; CSV Pipelines</span><span>Event Check-in Web Apps</span><span>Data Migration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sk reveal" data-cat="sec apps">
+          <div class="ib"><svg class="ic"><use href="#shield"/></svg></div>
+          <div>
+            <h3>Cybersecurity &amp; Continuity</h3>
+            <div class="chips">
+              <span>Email Security (Barracuda)</span><span>Web Firewall (Sucuri)</span><span>DNS, SPF &amp; MX</span><span>Access Control</span><span>Backups &amp; Disaster Recovery</span><span>User Account Provisioning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sk reveal" data-cat="lead">
+          <div class="ib"><svg class="ic"><use href="#users"/></svg></div>
+          <div>
+            <h3>Leadership, Delivery &amp; Governance</h3>
+            <div class="chips">
+              <span>Leading IT Teams</span><span>IT Budgeting (Capex &amp; Opex)</span><span>Vendor &amp; AMC Management</span><span>SLA Compliance</span><span>Staff Training &amp; Onboarding</span><span>Multi-Site Operations</span><span>ERP &amp; Cloud Rollouts</span><span>Cost Optimisation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <h2 class="reveal">Education</h2>
+      <p class="sub reveal">Qualifications in network engineering and computing.</p>
+      <div class="edu">
+        <div class="reveal"><svg class="ic"><use href="#cap"/></svg><p style="margin:0"><b>BEng (Hons) Computer Network Engineering (Top-Up)</b><span>London Metropolitan University (UK)</span></p></div>
+        <div class="reveal"><svg class="ic"><use href="#cap"/></svg><p style="margin:0"><b>Pearson BTEC Level 5 HND in Computing Network Engineering</b><span>ESOFT Metro Campus</span></p></div>
+        <div class="reveal"><svg class="ic"><use href="#cap"/></svg><p style="margin:0"><b>Diploma in English</b><span>Britishway English Academy</span></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="band">
+    <div class="wrap">
+      <h2 class="reveal">Get in touch</h2>
+      <p class="sub reveal">One tap to reach me. I usually reply fastest on WhatsApp.</p>
+      <div class="cg">
+        <a class="reveal" href="mailto:gishan123ka@gmail.com"><svg class="ic"><use href="#mail"/></svg><b>Email</b><span>gishan123ka@gmail.com</span></a>
+        <a class="reveal" href="https://wa.me/94711816940?text=Hi%20Gishan%2C%20I%20found%20your%20portfolio." target="_blank" rel="noopener"><svg class="ic"><use href="#wa"/></svg><b>WhatsApp</b><span>+94 71 181 6940</span></a>
+        <a class="reveal" href="https://www.linkedin.com/in/gishan-weerasinghe" target="_blank" rel="noopener"><svg class="ic"><use href="#in"/></svg><b>LinkedIn</b><span>Gishan Weerasinghe</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Gishan Weerasinghe</span>
+    <span>Manager – Information Technology, Sri Lanka</span>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/94711816940" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="ic"><use href="#wa"/></svg></a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+var root = document.documentElement;
+try { var t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch (e) {}
+document.getElementById('theme').onclick = function () {
+  var n = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  root.dataset.theme = n;
+  try { localStorage.setItem('theme', n); } catch (e) {}
+};
+
+var p = document.getElementById('photo');
+p.onerror = function () {
+  p.style.display = 'none';
+  document.getElementById('mono').style.display = 'grid';
+};
+
+/* Scroll progress bar & active nav link */
+var prog = document.getElementById('progress');
+var sections = document.querySelectorAll('main section[id]');
+var navLinks = document.querySelectorAll('nav ul a');
+window.addEventListener('scroll', function () {
+  var h = document.documentElement.scrollHeight - window.innerHeight;
+  prog.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+  var cur = '';
+  sections.forEach(function (sec) {
+    if (window.scrollY >= sec.offsetTop - 120) cur = sec.id;
+  });
+  navLinks.forEach(function (a) {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+  });
+}, { passive: true });
+
+/* Reveal on scroll */
+var io = new IntersectionObserver(function (entries) {
+  entries.forEach(function (en) {
+    if (en.isIntersecting) {
+      en.target.classList.add('in');
+      io.unobserve(en.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+/* Skill category filter */
+var fbtns = document.querySelectorAll('.fbtn');
+var skCards = document.querySelectorAll('.sk');
+fbtns.forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    fbtns.forEach(function (b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    var f = btn.dataset.filter;
+    skCards.forEach(function (card) {
+      var cats = card.dataset.cat.split(' ');
+      card.classList.toggle('dim', f !== 'all' && cats.indexOf(f) === -1);
+    });
+  });
+});
+</script>
+</body>
+</html>
